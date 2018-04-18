@@ -19,22 +19,6 @@
  *---------------------------------------------------------------------------
  */
 
-
-/**
- * 此类相当于全局共用的变量传递
- * 更多描述请见：http://biz.tae.qq.com/wiki/LIB3_V1.1_RegisterTree
- * @package sdk.src.framework.core
- *
- * 
- *TMRegisterTree::set('a','b');
- *TMRegisterTree::set('tt',array('a'=>'b2'));
- *
- *print_r(TMRegisterTree::get('a')); echo "\n";
- *print_r(TMRegisterTree::get('b')); echo "\n";
- *print_r(TMRegisterTree::get('tt','a')); echo "\n";
- *print_r(TMRegisterTree::get('tt','ab')); echo "\n";
- *print_r(TMRegisterTree::getAll()); echo "\n";
- */
 class TMRegisterTree {
     /**
      * 
